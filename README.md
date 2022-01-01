@@ -47,28 +47,15 @@
 * 입력되는 숫자와 연산기호, 해답은 LCD에 출력
 * 한 항에 입력되는 숫자의 크기는 세자리 수 이하
 
-- KeySet
 
-```c++
-#include <iostream>
-using namespace std;
-int main(){
-  cout<<"hello world!"<endl;
-  retrun 0;
-}
-```
 
-- KeySet
 
-```c++
-#include <iostream>
-using namespace std;
-int main(){
-  cout<<"hello world!"<endl;
-  retrun 0;
-}
-```
-
+|주요함수|Description|
+|---|---|
+|KeySet|키 입력값을 받는다|
+|TEMP_Oper|숫자가 입력될 때마다 입력된 항에 대해 계산한다|
+ 
+ 
 ---
 2. CAN 통신 실습
    MCU의 CAN pheriphral측에서 PORTD.5는 TXCAN, PORTD.6는 RXCAN이다.
@@ -102,15 +89,14 @@ int main(){
 ```
 2. AT90CAN128 보드에서 3개의 Tx Data 송출할 것
 Tx Data: 0x110(10msec), 0x210(50msec), 0x310(100msec)
-<소스코드>
-```c++
-#include <iostream>
-using namespace std;
-int main(){
-  cout<<"hello world!"<endl;
-  retrun 0;
-}
-```
+
+|주요함수|Description|
+|---|---|
+|initPort|PORT를 초기화한다.|
+|can_init|CAN통신 관련 레지스터를 초기화한다|
+|can_int_rx_set|인자로 받은 Mob를 수신할 때 interrupt가 발생하도록 레지스터를 설정한다|
+|can_tx|인자로 받은 Mob를 송신하도록 레지스터를 설정한다|
+ 
 
 
 AT90CAN128의 CAN통신부의 feature
