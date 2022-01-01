@@ -76,19 +76,19 @@
 <img width="30%" src="https://user-images.githubusercontent.com/87747013/147848595-1b3a0638-7ef6-4cb8-9b4c-0a5af7211fbb.png"/>  
 
 
-1. PC에서 전송되는 0x100, 0x200, 0x300, 0x400, 0x500, 0x600, 0x700, 0x800,0x150, 0x250의 10개 CAN Frame Data를 수신하고, 
-LED에 수신될 때마다 Toggle 할 것 (D9-0x100, D10-0x200, … D16-0x800, D23-0x150, D24-0x250)
-<소스코드>
-```c++
-#include <iostream>
-using namespace std;
-int main(){
-  cout<<"hello world!"<endl;
-  retrun 0;
-}
-```
-2. AT90CAN128 보드에서 3개의 Tx Data 송출할 것
-Tx Data: 0x110(10msec), 0x210(50msec), 0x310(100msec)
+- PC에서 전송되는 0x100, 0x200, 0x300, 0x400, 0x500, 0x600, 0x700, 0x800,0x150, 0x250의 10개 CAN Frame Data를 수신하고, 
+
+
+
+   LED에 수신될 때마다 Toggle 할 것 (D9-0x100, D10-0x200, … D16-0x800, D23-0x150, D24-0x250)
+
+
+
+- AT90CAN128 보드에서 3개의 Tx Data 송출할 것
+
+
+
+   Tx Data: 0x110(10msec), 0x210(50msec), 0x310(100msec)
 
 |주요함수|Description|
 |---|---|
