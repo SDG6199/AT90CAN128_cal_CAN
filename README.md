@@ -9,6 +9,7 @@
    - kvaser canking driver
    - Kvaser 00685-0 Can Module, Usb, Leaf Light V2, 1Ch
    - RS232 cable
+   <img width="30%" src="https://user-images.githubusercontent.com/87747013/147848803-5d932f65-5051-4ba3-968b-ccc20dc7cae7.jpg"/>  
 
 ---
 1. 4X4 keypad를 이용하여 계산기 만들기
