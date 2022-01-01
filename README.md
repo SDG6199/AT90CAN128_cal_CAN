@@ -1,5 +1,16 @@
 # AT90CAN128_cal_CAN
 
+- 환경
+
+
+
+   - Atmel studio 7
+   - (로보블럭)AT90CAN128 트레이닝키트
+   - kvaser canking driver
+   - Kvaser 00685-0 Can Module, Usb, Leaf Light V2, 1Ch
+   - RS232 cable
+
+---
 1. 4X4 keypad를 이용하여 계산기 만들기
 
 
@@ -9,6 +20,10 @@ PORTB, PORTD는 7-segment(debug)에 연결한다.
 PORTE는 4x4 keypad에 연결한다.
 
 <lcd_회로도>
+
+<img width="50%" src="https://user-images.githubusercontent.com/87747013/147848587-ea492573-05a0-4548-ac22-ef2caa60c2f7.png"/>  
+
+
 <4x4_keypad>  <timing chart>  <initialization>
 
 설계조건:
