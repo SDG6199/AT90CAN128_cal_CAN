@@ -58,12 +58,10 @@
  
 ---
 2. CAN 통신 실습
-   MCU의 CAN pheriphral측에서 PORTD.5는 TXCAN, PORTD.6는 RXCAN이다.
+   MCU의 CAN controller interface측의 CAN_H, CAN_L는 transcevier에 연결될 수 있다.
    
+   PORTD.5는 TXCAN, PORTD.6는 RXCAN이다. 이는 CAN_to_RS232_to_usb 케이블(kvaser+RS232)에 연결한다.
    
-   
-   이는 transcevier에 연결되며(연결할 필요x),
-   CAN_H, CAN_L는 can_to_usb케이블(kvaser+RS232)에 연결한다.
    PORTE는 LED에 연결한다.
 
 - can 통신부
