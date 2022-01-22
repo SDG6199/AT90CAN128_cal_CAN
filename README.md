@@ -7,7 +7,7 @@
    - Atmel studio 7
    - (로보블럭)AT90CAN128 트레이닝키트
    - Kvaser CanKing
-   - Kvaser 00685-0 Can Module, Usb, Leaf Light V2, 1Ch & RS232 cable
+   - Kvaser 00685-0 Can Module, Usb, Leaf Light V2, 1Ch & d-sub CAN connector
 
 
 
@@ -58,9 +58,9 @@
  
 ---
 2. CAN 통신 실습
-   MCU의 CAN controller interface측의 CAN_H, CAN_L는 transcevier에 연결될 수 있다.
+   MCU의 CAN transcevier(pca82c250)측의 CAN_H, CAN_L는 CAN BUS level의 신호이다.
    
-   PORTD.5는 TXCAN, PORTD.6는 RXCAN이다. 이는 CAN_to_RS232_to_usb 케이블(kvaser+RS232)에 연결한다.
+   TX,RX pin은 PORTD.5,D.6에 연결된다. 이 pin을 다른 transcevier인 CAN_to_usb 케이블(kvaser)에 연결한다.
    
    PORTE는 LED에 연결한다.
 
