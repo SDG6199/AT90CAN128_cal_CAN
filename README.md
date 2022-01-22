@@ -6,7 +6,7 @@
 
    - Atmel studio 7
    - (로보블럭)AT90CAN128 트레이닝키트
-   - kvaser CANking
+   - Kvaser CanKing
    - Kvaser 00685-0 Can Module, Usb, Leaf Light V2, 1Ch & RS232 cable
 
 
