@@ -33,7 +33,7 @@
 
 
 - lcd_회로도
-<img width="30%" src="https://user-images.githubusercontent.com/87747013/147848587-ea492573-05a0-4548-ac22-ef2caa60c2f7.png"/>  
+<img width="30%" src="https://user-images.githubusercontent.com/87747013/147848591-16eea368-9a5d-4411-a531-cb41d82eae0f.png"/>  
 - 4x4_keypad
 <img width="30%" src="https://user-images.githubusercontent.com/87747013/147848587-ea492573-05a0-4548-ac22-ef2caa60c2f7.png"/>  
 - timing chart
