@@ -33,11 +33,11 @@
 
 
 - lcd_회로도
-<img width="30%" src="https://user-images.githubusercontent.com/87747013/147848591-16eea368-9a5d-4411-a531-cb41d82eae0f.png"/>  
+<img width="25%" src="https://user-images.githubusercontent.com/87747013/147848591-16eea368-9a5d-4411-a531-cb41d82eae0f.png"/>  
 - 4x4_keypad
-<img width="30%" src="https://user-images.githubusercontent.com/87747013/147848587-ea492573-05a0-4548-ac22-ef2caa60c2f7.png"/>  
+<img width="35%" src="https://user-images.githubusercontent.com/87747013/147848587-ea492573-05a0-4548-ac22-ef2caa60c2f7.png"/>  
 - timing chart
- <img width="30%" src="https://user-images.githubusercontent.com/87747013/147848596-0a2ea308-e14c-45ee-879e-3b7fb74e0854.png"/>  
+ <img width="35%" src="https://user-images.githubusercontent.com/87747013/147848596-0a2ea308-e14c-45ee-879e-3b7fb74e0854.png"/>  
 - initialization
 <img width="30%" src="https://user-images.githubusercontent.com/87747013/147848590-340057d5-0f1c-4670-a669-c86d290e55b5.png "/>  
 
